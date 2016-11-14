@@ -4,10 +4,10 @@ export default function (router) {
       component: require('./pages/Test.vue'),
       title: 'title default'
     },
-    '/testok': {
-      component: require('./pages/TestOK.vue'),
-      title: 'title default'
-    }
+    // '/testok': {
+    //   component: require('./pages/TestOK.vue'),
+    //   title: 'title default'
+    // }
   });
 
 };

@@ -1,10 +1,13 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueConfig from './routes';
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
 // import MintUI from 'mint-ui';
 // import 'mint-ui/lib/style.css';
 
 // Vue.use(MintUI);
+Vue.use(ElementUI)
 Vue.use(VueRouter);
 /* eslint-disable no-new */
 const router = new VueRouter({});
